@@ -1,0 +1,62 @@
+ 
+
+上傳至github的步驟
+1.下載git 
+2.對目標資料夾案右鍵並選git bash
+3登入github
+4指示碼步驟
+git init
+git add .
+git commit -m ‘first commit’
+git remote add origin 網址
+git push -u origin master
+ 
+init 為創造該檔案本地資料庫，使之後變更的紀錄都可以被儲存在裡面，會創造出一個隱藏的.git資料夾
+add . 將所有的檔案由工作目錄儲存到索引
+commit 將修改紀錄儲存到本地數據庫
+push 將本地數據庫的東西推送到遠端數據庫進行更新
+ 
+為什麼要有索引的存在
+https://hackernoon.com/understanding-git-index-4821a0765cf
+
+未研究
+
+
+
+
+
+
+
+
+git作為時光機
+  
+
+head 為最新版本的指標，標記最新版本的位置
+可以利用head的移動來還原版本
+步驟：
+1. git log
+顯示所有的commit紀錄
+2.找到目標commit 的位址(輸入前四碼即可
+3.git checkout 前四碼
+將head移動到目標版本
+(終端機後面會從master改為該目標版本)
+ 
+ 
+
+ 
+此時原本有內容的檔案會變空
+
+4.git checkout master
+ 
+
+ 
+git branch 新增分支的名稱
+git branch      不加名稱則會確認目前的branch
+git branch 目標分支名稱   移動到目標分支
+這樣就不會修改到已經上線的正確地版本，用來在未來做更新時，直到bug修完之前都在branch上工作
+ 
+如果開發的新功能完成後，要把master與這個版本合併(head指到future1)
+Git checkout master(首先移動head 回到master)
+Git merge 分支名稱
+將目標分支與master合併
+
