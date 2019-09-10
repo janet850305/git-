@@ -2,7 +2,7 @@
 
 上傳至github的步驟
 下載git 
-  對目標資料夾案右鍵並選git bash
+ 對目標資料夾案右鍵並選git bash
 3登入github
 4指示碼步驟
 git init
