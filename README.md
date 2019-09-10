@@ -1,8 +1,8 @@
 # git- 
 
 上傳至github的步驟
-1.下載git 
-2.對目標資料夾案右鍵並選git bash
+下載git 
+  對目標資料夾案右鍵並選git bash
 3登入github
 4指示碼步驟
 git init
