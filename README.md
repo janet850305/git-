@@ -1,4 +1,7 @@
 # git- 
+https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-%E5%88%9D%E6%AC%A1%E8%A8%AD%E5%AE%9A-Git
+初次使用(剛灌git 需要設定username 與useremail)</br>
+可以用git config --list 是否設定完成
 
 上傳至github的步驟:  </br>
 1.下載git   </br>
